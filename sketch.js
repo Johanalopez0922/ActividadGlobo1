@@ -1,12 +1,20 @@
 var bg, bgImg
 var bottomGround
 var topGround
-var balloon, balloonImg
+var balloon, balloonImg; 
+var obstTop1, obstTop2; 
+var obsBottom1, obsBottom2, obsBottom3; 
 
 function preload(){
-bgImg = loadImage("assets/bg.png")
+bgImg = loadImage("assets/bg.png"); 
+balloonImg = loadAnimation("assets/balloon1.png","assets/balloon2.png","assets/balloon3.png"); 
 
-balloonImg = loadAnimation("assets/balloon1.png","assets/balloon1.png","assets/balloon1.png")
+obstTop1 = loadImage("obstTop1.png"); 
+obstTop2 = loadImage("obstTop2.png"); 
+
+obsBottom1 = loadImage("")
+obsBottom2 = loadImage("")
+obsBottom3 = loadImage("")
 }
 
 function setup(){
